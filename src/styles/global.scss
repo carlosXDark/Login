@@ -1,0 +1,33 @@
+:root {
+    --primary: #6e0199;
+    --background: #121214;
+    --text: #FFF;
+    --caption: #8D8D99;
+    --gray: #d982fc;
+    --background-light: rgba(255, 255, 255, 0.05);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('https://images.pling.com/img/00/00/61/26/90/1562907/a4e9e9901bc4e634f4ef4c99a38754febd6da80d5a53bac93da0ff8f3bcd33051ba7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--background);
+    color: var(--text);
+  
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  button {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+  }
+
+  
+

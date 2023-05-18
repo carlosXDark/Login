@@ -1,0 +1,57 @@
+.card {
+    background-color: rgba(33, 5, 53, 0.5);
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px rgba(0, 0, 0, 0.7);
+   }
+   
+   .tittle {
+    color: rgb(134, 74, 187);
+    margin-bottom: 20px;
+    text-align: center;
+   }
+   
+   .entrada{
+    width: 100%;
+    padding: 5px 5px;
+    border: 0;
+    display: inline-block;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 18px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+   }
+   
+   .label{
+    color: rgb(134, 74, 187);
+   }
+   
+   .user{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+   }
+   
+   .entrada:focus{
+    border-bottom: 2px solid white;
+   }
+   
+   .label{
+    color: purple;
+    pointer-events: none;
+    position:absolute;
+    top:0;
+    left:0;
+    margin-top:13px;
+    transition: all .3s ease-out;
+   }
+   
+   .label.focused {
+    transform: translateY(-20px);
+    font-size:14px;
+   }
+   
